@@ -50,6 +50,4 @@ int main()
 	   printf("\n %f", tablica[i]);
    }
 
-
-
 }

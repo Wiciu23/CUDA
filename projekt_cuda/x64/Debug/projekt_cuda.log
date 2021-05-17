@@ -1,7 +1,7 @@
-﻿Build started 13.05.2021 21:32:22.
+﻿Build started 17.05.2021 14:31:32.
      1>Project "C:\Users\Wiciu\Desktop\Inżynierka\zlobek\projekt_cuda\projekt_cuda\projekt_cuda.vcxproj" on node 2 (Rebuild target(s)).
      1>CudaClean:
-         cmd.exe /C "C:\Users\Wiciu\AppData\Local\Temp\tmp32939a3827484ef68290e6c3cfd0d481.cmd"
+         cmd.exe /C "C:\Users\Wiciu\AppData\Local\Temp\tmpe60ca8943b2440fe8b69f8457bf1515f.cmd"
          "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\nvcc.exe" -ccbin "E:\Pliki programów (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile   -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o x64\Debug\kernel.cu.obj "C:\Users\Wiciu\Desktop\Inżynierka\zlobek\projekt_cuda\projekt_cuda\kernel.cu" -clean
          
          C:\Users\Wiciu\Desktop\Inżynierka\zlobek\projekt_cuda\projekt_cuda>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\nvcc.exe" -ccbin "E:\Pliki programów (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile   -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o x64\Debug\kernel.cu.obj "C:\Users\Wiciu\Desktop\Inżynierka\zlobek\projekt_cuda\projekt_cuda\kernel.cu" -clean 
@@ -10,7 +10,7 @@
          E:\Pliki programów (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /DWIN64 /D_DEBUG /D_CONSOLE /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" /I. /FIcuda_runtime.h /c C:\Users\Wiciu\Desktop\Inżynierka\zlobek\projekt_cuda\projekt_cuda\kernel.cu 
        CudaBuild:
          Compiling CUDA source file kernel.cu...
-         cmd.exe /C "C:\Users\Wiciu\AppData\Local\Temp\tmpfc7153432aea4e40993c48cf1fb4af1b.cmd"
+         cmd.exe /C "C:\Users\Wiciu\AppData\Local\Temp\tmp11379a6fbb9f49b8b926906f72a978ec.cmd"
          "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2012 -ccbin "E:\Pliki programów (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o x64\Debug\kernel.cu.obj "C:\Users\Wiciu\Desktop\Inżynierka\zlobek\projekt_cuda\projekt_cuda\kernel.cu"
          
          C:\Users\Wiciu\Desktop\Inżynierka\zlobek\projekt_cuda\projekt_cuda>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2012 -ccbin "E:\Pliki programów (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o x64\Debug\kernel.cu.obj "C:\Users\Wiciu\Desktop\Inżynierka\zlobek\projekt_cuda\projekt_cuda\kernel.cu" 
@@ -30,4 +30,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:06.79
+Time Elapsed 00:00:09.20
